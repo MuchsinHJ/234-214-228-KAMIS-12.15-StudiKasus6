@@ -35,7 +35,7 @@ class Mahasiswa{
     cout << "| Masukkan Pilihan : ";
     cin >> pilih;
     cout << "+====================================+" << endl;
-    cout << endl;
+    cout << endl << endl;
     
     switch (pilih)
     {
@@ -46,7 +46,6 @@ class Mahasiswa{
         dataMahasiswa();
       break;
       case 3:
-      cout << endl;
       cout << "Terima Kasih" << endl;
       return;
       break;
